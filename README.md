@@ -1,0 +1,1 @@
+# amz-mws-conector
