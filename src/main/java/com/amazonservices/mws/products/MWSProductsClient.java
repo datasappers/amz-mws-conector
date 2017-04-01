@@ -47,7 +47,7 @@ import com.amazonservices.mws.products.model.ListMatchingProductsRequest;
 import com.amazonservices.mws.products.model.ListMatchingProductsResponse;
 import com.amazonservices.mws.products.model.MWSResponse;
 import com.amazonservices.mws.products.model.ResponseHeaderMetadata;
-import com.nykart.aw.connector.configs.ProductConfiguration;
+import com.datasappers.aw.connector.configs.ProductConfiguration;
 
 public class MWSProductsClient implements MWSProducts {
 

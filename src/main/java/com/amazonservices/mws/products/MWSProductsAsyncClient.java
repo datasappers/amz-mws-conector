@@ -42,7 +42,7 @@ import com.amazonservices.mws.products.model.GetServiceStatusRequest;
 import com.amazonservices.mws.products.model.GetServiceStatusResponse;
 import com.amazonservices.mws.products.model.ListMatchingProductsRequest;
 import com.amazonservices.mws.products.model.ListMatchingProductsResponse;
-import com.nykart.aw.connector.configs.ProductConfiguration;
+import com.datasappers.aw.connector.configs.ProductConfiguration;
 
 public class MWSProductsAsyncClient extends MWSProductsClient implements MWSProductsAsync {
 	

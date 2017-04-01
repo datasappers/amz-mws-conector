@@ -1,4 +1,4 @@
-package com.amazonservices.mws.products.custom;
+package com.datasappers.az.connector.configs;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -8,18 +8,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.datasappers.aw.connector.configs.MWSAsyncProductsClientFactory;
+import com.datasappers.aw.connector.configs.ProductConfiguration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:aw-mws-connector-context.xml" })
-public class TestMWSAsyncProductsClientFactory {
+public class TestProductConfiguration {
 	
 	@Autowired
-	private MWSAsyncProductsClientFactory mwsAsyncProductsClientFactory;
+	private ProductConfiguration productConfiguration;
 	
 	@Test
-	public void shouldInitBeans(){
-		assertNotNull(mwsAsyncProductsClientFactory);
+	public void shouldInitComponents(){
+		assertNotNull(productConfiguration);
 	}
 
 }
