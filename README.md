@@ -1,3 +1,3 @@
 ## amz-mws-conector
 
-#Amazon MWS connector code in java.
+# Amazon MWS connector code in java.
